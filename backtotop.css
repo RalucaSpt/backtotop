@@ -1,0 +1,33 @@
+
+html {
+    scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .wrapper{
+        position: sticky;
+        top: 95%;
+        display: inline-block;
+        align-self: flex-end;
+    }
+    
+    .back-to-top {
+        background: #333;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    
+    
