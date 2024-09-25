@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns:auto 0%;
+}
+
+.content{
+    padding: 20px;
+    justify-content: left;
+}
+
+.button-wrapper{
+  align-self: start;
+  justify-self: end;
+  margin-top: 110vh;
+  position:sticky;
+  top: 90vh;
+}
+
+.back-to-top {
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center; 
+  font-size:x-large;
+}
+
+.top {
+  text-align: center;
+}
